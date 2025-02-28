@@ -26,3 +26,4 @@ carpeta = "C:/Users/cesar/Documents/Audacity"
 
 # Llamamos a la función para renombrar los archivos
 renombrar_archivos(carpeta)
+print("probando ando")
