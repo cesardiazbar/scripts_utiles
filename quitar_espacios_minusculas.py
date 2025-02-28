@@ -1,7 +1,7 @@
 import os
 
 def renombrar_archivos(carpeta):
-    # Verifica si la carpeta existe
+    # Verifica si la carpeta existe .
     if not os.path.exists(carpeta):
         print(f"La carpeta '{carpeta}' no existe.")
         return
@@ -19,7 +19,7 @@ def renombrar_archivos(carpeta):
             ruta_nueva = os.path.join(carpeta, nuevo_nombre)
             # Renombra el archivo
             os.rename(ruta_antigua, ruta_nueva)
-            print(f'Renombrado: "{archivo}" a "{nuevo_nombre}"')
+            print(f'Renombrado a : "{archivo}" a "{nuevo_nombre}"')
 
 # Ruta de la carpeta que deseas procesar (predefinida)
 carpeta = "C:/Users/cesar/Documents/Audacity"
